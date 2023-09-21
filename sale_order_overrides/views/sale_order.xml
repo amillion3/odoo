@@ -7,8 +7,8 @@
             <field name="inherit_id" ref="sale.view_order_form"/>
             <field name="arch" type="xml">
                 <xpath expr="//group[@name='sale_total']" position="inside">
-                    <field name="user_amount_tax" attrs="{'readonly': [('id', '=', False)]}"/>
-                    <field name="user_amount_shipping" attrs="{'readonly': [('id', '=', False)]}"/>
+                    <field name="user_amount_tax" attrs="{'readonly': [('id', '!=', False)]}"/>
+                    <field name="user_amount_shipping" attrs="{'readonly': [('id', '!=', False)]}"/>
                 </xpath>
             </field>
         </record>
