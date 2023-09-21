@@ -7,10 +7,8 @@
             <field name="model">sale.order</field>
             <field name="inherit_id" ref="sale.view_order_form"/>
             <field name="arch" type="xml">
-                <xpath expr="//group[@name='note_group']" position="inside">
-                    <group>
-                        <field name="user_amount_tax"/>
-                    </group>
+                <xpath expr="//group[@name='sale_total']" position="inside">
+                    <field name="user_amount_tax"/>
                 </xpath>
             </field>
         </record>
