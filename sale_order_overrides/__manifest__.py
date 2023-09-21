@@ -7,10 +7,10 @@
 ##############################################################################
 
 {
-    'name': "Bista Sale User Defined Tax",
+    'name': "Sale.Order Overrides",
     'version': '1.0',
     'depends': ['base', "sale"],
-    'author': "Omid Totakhel @ Bista Solutions",
+    'author': "CDF/FP",
     'category': 'contact',
     "license": "LGPL-3",
     'description': """""",

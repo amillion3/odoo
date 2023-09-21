@@ -9,8 +9,13 @@
             <field name="arch" type="xml">
                 <xpath expr="//group[@name='sale_total']" position="inside">
                     <field name="user_amount_tax"/>
+                    <field name="user_amount_shipping"/>
                 </xpath>
             </field>
+<!--            <field name="arch" type="xml">-->
+<!--                <xpath expr="//group[@name='sale_total']" position="inside">-->
+<!--                </xpath>-->
+<!--            </field>-->
         </record>
 
     </data>
