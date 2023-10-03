@@ -10,6 +10,7 @@
                     <field name="user_amount_fees" attrs="{'readonly': [('id', '!=', False)]}"/>
                     <field name="user_amount_tax" attrs="{'readonly': [('id', '!=', False)]}"/>
                     <field name="user_amount_shipping" attrs="{'readonly': [('id', '!=', False)]}"/>
+                    <field name="user_amount_total" attrs="{'readonly': [('id', '!=', False)]}"/>
                 </xpath>
             </field>
         </record>

@@ -2,7 +2,7 @@
 
 {
     'name': "Sale.Order Overrides",
-    'version': '1.0',
+    'version': '1.0.1',
     'depends': ['base', "sale"],
     'author': "Atiba Software",
     'category': 'contact',
