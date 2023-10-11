@@ -3,7 +3,7 @@
 {
     'name': "Fast Partitions Overrides",
     'version': "1.0.2",
-    'depends': ["base", "account", "account.move", "sale"],
+    'depends': ["base", "account", "sale"],
     'author': "Atiba Software",
     'category': "contact",
     "license": "LGPL-3",
