@@ -10,7 +10,7 @@
     'description': """""",
     'data': [
         "views/sale_order.xml",
-        "views/account_move.xml"
+        "views/account_move_views.xml"
     ],
     'installable': True,
 }
