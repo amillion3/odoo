@@ -7,10 +7,10 @@
             <field name="inherit_id" ref="account.view_move_form"/>
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='tax_totals']" position="inside">
-                    <field name="user_amount_fees" attrs="{'readonly': [('id', '!=', False)]}"/>
-                    <field name="user_amount_tax" attrs="{'readonly': [('id', '!=', False)]}"/>
-                    <field name="user_amount_shipping" attrs="{'readonly': [('id', '!=', False)]}"/>
-                    <field name="user_amount_total" attrs="{'readonly': [('id', '!=', False)]}"/>
+                    <field name="userrr_amount_fees" attrs="{'readonly': [('id', '!=', False)]}"/>
+                    <field name="userrr_amount_tax" attrs="{'readonly': [('id', '!=', False)]}"/>
+                    <field name="userrr_amount_shipping" attrs="{'readonly': [('id', '!=', False)]}"/>
+                    <field name="userrr_amount_total" attrs="{'readonly': [('id', '!=', False)]}"/>
                 </xpath>
             </field>
         </record>
